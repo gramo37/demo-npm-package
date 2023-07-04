@@ -1,0 +1,17 @@
+{
+  "name": "package1",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "yarn build"
+  },
+  "files": [
+    "lib/**/*"
+  ]
+}
